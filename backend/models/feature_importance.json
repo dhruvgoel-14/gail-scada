@@ -1,0 +1,10 @@
+{
+  "pressure": 26.95,
+  "flow_rate": 26.92,
+  "energy_consumption": 24.12,
+  "pump_speed": 11.73,
+  "temperature": 6.16,
+  "compressor_state": 1.64,
+  "pump_state": 1.37,
+  "valve_status": 1.11
+}

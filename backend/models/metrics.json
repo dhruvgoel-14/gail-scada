@@ -1,0 +1,19 @@
+{
+  "accuracy": 94.5,
+  "precision": 94.5,
+  "recall": 94.5,
+  "f1_score": 94.43,
+  "confusion_matrix": [
+    [
+      136,
+      3
+    ],
+    [
+      8,
+      53
+    ]
+  ],
+  "train_samples": 800,
+  "test_samples": 200,
+  "model": "Random Forest Classifier"
+}

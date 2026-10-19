@@ -1,0 +1,40 @@
+@'
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+venv/
+.venv/
+backend/venv/
+.pytest_cache/
+.mypy_cache/
+
+# Node.js
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.npm/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated data and local databases
+*.sqlite3
+*.db
+'@ | Set-Content -Encoding utf8 .gitignore
